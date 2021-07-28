@@ -1,0 +1,61 @@
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device=device-width, intial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/main.css">
+    <style>
+        option:hover{
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+<body>
+<div id="contact"></div>
+
+      <ul class="navbar">
+     
+        <li class="navbar-items"><a class="links" href="home.html">Home</a></li>
+        <li class="navbar-items"><a class="links" href="contactInfo.html">Contact</a></li>
+        <li class="navbar-items"><a class="links" href="services.html">Services</a></li>
+        <li class="navbar-items"><a class="links" href="portfolio.html">Portfolio</a></li>
+        <li class="navbar-items"><a class="links" href="payment.html">Payment</a></li>
+    </ul>
+ 
+<!-- Header with image -->
+<header class="contactbgimg"></header>
+<div class="detail-wrapper">
+<p><strong> Days work:</strong> Wednesday--Sunday from 11am to 7pm</p>
+<p><strong> Address:</strong> 31510 Gratiot Ave Roseville, Mi 48066 </p>
+
+</div>
+                       <h1>JCPenney</h1>
+                       <h1>Contact information</h1> 
+
+     <div class="inner-container">
+            <form action="contact.php" method="POST">
+            <label for ="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="text">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phone">Enter a phone number:</label><br><br>
+            <input type="tel" id="phone" name="phone" placeholder="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+
+            <input type="submit" value="submit"> 
+           </form>  
+           
+        </form>
+                     
+         </div>
+       </div>
+    </form>
+     
+    
+           <script src="../Scripts/main.js"></script>
+    
+    </body>
+</html>
+

@@ -1,0 +1,128 @@
+body{
+    background-color:whitesmoke;
+}
+
+.dayswork {
+text-align: left;
+padding-left: 2px;
+}
+
+.address {
+    text-align: right;
+    padding-right: 2px;
+    padding-bottom: 0px;
+}
+
+.select>option:hover {
+        color:yellow ;
+        cursor:pointer;
+}
+
+.inner-container{
+    border: 1px solid red;
+    padding: 20px;
+}
+.detail-wrapper{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+    bottom: 60px;
+
+}
+.detail-wrapper > p{
+    font-size: 18px;
+    padding: 10px;
+
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+}
+.navbar-items{
+    float: left;
+}
+
+.links {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.links:hover {
+  background-color: #111;
+  
+}
+
+body, html{
+    height: 100%;
+    font-family:  Arial, Helvetica, sans-serif;
+  }
+
+  .bgimg{
+      background-position: center;
+      background-size: cover;
+      background-image: url("HQjIBU.webp");
+      min-height: 75%;
+      background-image: url;
+      filter: brightness(2.00);
+  }
+.servicebgimg{
+    background-position: center;
+    background-size: cover;
+    background-image: url("istockphoto-108222090-612x612.jpeg");
+    min-height: 50%;
+    
+}
+.contactbgimg{
+    background-position: center;
+    background-size: cover;
+    background-image: url("black-brick-background-kalu-salon-black-friday-sales-web.jpeg");
+    min-height: 50%;
+    padding: 2px;
+}
+.paymentbgimg{
+    background-position: center;
+    background-size: cover;
+    background-image: url("5ab29d1c28cbd39e8c3f7cd25bf945a2.png");
+    min-height: 50%;
+    padding: 50px;
+}
+.chemicalservices{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 20;
+}
+.portfolio{
+    background-position: center;
+    background-size: cover;
+    background-image: url("th.jpeg");
+    min-height: 50%;
+    padding: 50px;
+}
+.imageContainer > img:hover {
+    width: 500px;
+    height: 300px;
+}
+@media all and (max-width: 1280px){
+    body {
+        min-width: 300px;
+      color:blue;
+    }
+    a {
+    display: block;
+    margin: 30px auto;
+    width: 50%;
+    }
+}   
+.portfolio-item{
+    width: 300px;
+    height: 300px;
+}
