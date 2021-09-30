@@ -1,9 +1,8 @@
-<html lang="en">
-    <head>
+ <html>   
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device=device-width, intial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="/style/main.css">
     <style>
         option:hover{
             background-color: yellow;
@@ -12,7 +11,25 @@
 
 </head>
 <body>
-<div id="contact"></div>
+    
+   
+   <!--  $statement = mysql_statement_init($conn);-->
+   <!--  //Prepare the prepared statement -->
+   <!--  //if (!mysql_statement_prepare($statement,$sql)) { -->
+   <!--    // echo "_SQL statement failed"; --> 
+   <!-- } else { -->
+    <!--     //Bind parameters to the placeholder -->
+    <!--   //  mysql_statement_bind_param($statement, "s", $data); -->
+     <!--    //Run parameters inside the datebase -->
+     <!--    //mysql_statement_execute($statement); -->
+       <!--  //$result = mysql_statement_get_result($statement); -->
+
+      <!--   //while ($row = mysql_fetch_assoc(result)){ -->
+      <!--     //  echo $row['users_uid'] "<br> -->
+             
+        
+     
+     <div id="Contact"></div>
 
       <ul class="navbar">
      
@@ -34,24 +51,28 @@
                        <h1>Contact information</h1> 
 
      <div class="inner-container">
-            <form action="contact.php" method="POST">
-            <label for ="fname">First name:</label>
-            <input type="text" id="fname" name="fname"><br><br>
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname"><br><br>
+            <form action="confirmation.php" method="POST">
+            <label for ="first_name">First name:</label>
+            <input type="text" id="first_name" name="first_name"><br><br>
+            <label for="last_name">Last name:</label>
+            <input type="text" id="last_name" name="last_name"><br><br>
             <label for="text">Email:</label>
             <input type="email" id="email" name="email"><br><br>
             <label for="phone">Enter a phone number:</label><br><br>
             <input type="tel" id="phone" name="phone" placeholder="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+            <nav class="navbar navbar-default"></nav>
+            <li class="navbar-items"><a class="links" href="home.html">Home</a></li>
+            <div class="navbar-header"></div> 
 
-            <input type="submit" value="submit"> 
+            <input type="submit" name="submit" value="Send" /> 
            </form>  
            
-        </form>
+      
+
                      
          </div>
        </div>
-    </form>
+  
      
     
            <script src="../Scripts/main.js"></script>
